@@ -21,6 +21,7 @@ const nextConfig = {
             'kyle-mann.com',
             'uploads-ssl.webflow.com',
             'dropbox.com',
+            'imagedelivery.net'
           ],
     },
 };

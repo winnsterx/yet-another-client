@@ -2,7 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
+/* :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
   --background-end-rgb: 255, 255, 255;
@@ -30,4 +30,25 @@ body {
   .text-balance {
     text-wrap: balance;
   }
+} */
+
+.custom-border {
+  border-left-width: 2px;
+  border-right-width: 2px;
+  border-top-width: 1px;
+  border-bottom-width: 1px;
+}
+
+.hover\:border-rainbow:hover {
+  animation: rainbow-border 1s linear infinite;
+}
+
+@keyframes rainbow-border {
+  0% { border-color: red; }
+  16% { border-color: orange; }
+  33% { border-color: yellow; }
+  50% { border-color: green; }
+  66% { border-color: blue; }
+  83% { border-color: indigo; }
+  100% { border-color: violet; }
 }
